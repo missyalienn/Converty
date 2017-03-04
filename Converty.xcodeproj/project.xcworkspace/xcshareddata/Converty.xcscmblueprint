@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E11DD7A4FB5D1982F92F096E8E82EAFD7BE4F6A7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "076C75D69A71FAC6A45ECCF1DA12A6445578EF27" : 9223372036854775807,
+    "E11DD7A4FB5D1982F92F096E8E82EAFD7BE4F6A7" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "59CFEEE5-A463-4AAA-B02D-60296DA620CE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "076C75D69A71FAC6A45ECCF1DA12A6445578EF27" : "AffirmationCards\/",
+    "E11DD7A4FB5D1982F92F096E8E82EAFD7BE4F6A7" : "Converty\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Converty",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Converty.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:missyalienn\/affirmationNation.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "076C75D69A71FAC6A45ECCF1DA12A6445578EF27"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:missyalienn\/Converty.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E11DD7A4FB5D1982F92F096E8E82EAFD7BE4F6A7"
+    }
+  ]
+}

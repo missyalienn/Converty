@@ -2,11 +2,12 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "stopwatchGreen.png",
+      "filename" : "calcIcon1X.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "CalcIcon2x.png",
       "scale" : "2x"
     },
     {

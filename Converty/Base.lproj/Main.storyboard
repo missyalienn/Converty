@@ -76,7 +76,7 @@
             </objects>
             <point key="canvasLocation" x="582" y="-125"/>
         </scene>
-        <!--Calc View Controller-->
+        <!--Calculator-->
         <scene sceneID="Omn-zz-pPR">
             <objects>
                 <viewController id="zXR-GO-Z5E" customClass="CalcViewController" customModule="Converty" customModuleProvider="target" sceneMemberID="viewController">
@@ -89,9 +89,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eGU-4P-MhQ">
-                                <rect key="frame" x="93" y="259" width="64" height="64"/>
+                                <rect key="frame" x="119" y="259" width="64" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.88235294119999996" blue="0.32549019610000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.48033280820000002" green="0.85995583210000004" blue="0.88810675760000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="4"/>
                                 <connections>
@@ -99,9 +99,9 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BTI-vB-wm2">
-                                <rect key="frame" x="165" y="259" width="64" height="64"/>
+                                <rect key="frame" x="191" y="259" width="64" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.88235294119999996" blue="0.32549019610000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.48033280820000002" green="0.85995583210000004" blue="0.88810675760000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="5"/>
                                 <connections>
@@ -109,9 +109,9 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WT7-Rh-USa">
-                                <rect key="frame" x="237" y="259" width="64" height="64"/>
+                                <rect key="frame" x="263" y="259" width="64" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.88235294119999996" blue="0.32549019610000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.48033280820000002" green="0.85995583210000004" blue="0.88810675760000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="6"/>
                                 <connections>
@@ -119,9 +119,9 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vN8-U5-mwv">
-                                <rect key="frame" x="93" y="187" width="64" height="64"/>
+                                <rect key="frame" x="119" y="187" width="64" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.88235294119999996" blue="0.32549019610000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.48033280820000002" green="0.85995583210000004" blue="0.88810675760000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="7"/>
                                 <connections>
@@ -129,9 +129,9 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zEt-or-aCe">
-                                <rect key="frame" x="21" y="187" width="64" height="64"/>
+                                <rect key="frame" x="47" y="186" width="64" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.88235294119999996" blue="0.32549019610000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.48033280820000002" green="0.85995583210000004" blue="0.88810675760000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="π"/>
                                 <connections>
@@ -139,9 +139,9 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZM6-uo-Ivo">
-                                <rect key="frame" x="165" y="187" width="64" height="64"/>
+                                <rect key="frame" x="191" y="187" width="64" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.88235294119999996" blue="0.32549019610000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.48033280820000002" green="0.85995583210000004" blue="0.88810675760000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="8"/>
                                 <connections>
@@ -149,9 +149,9 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ohM-H7-xzZ">
-                                <rect key="frame" x="237" y="187" width="64" height="64"/>
+                                <rect key="frame" x="263" y="187" width="64" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.88235294119999996" blue="0.32549019610000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.48033280820000002" green="0.85995583210000004" blue="0.88810675760000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="9"/>
                                 <connections>
@@ -159,9 +159,9 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l5R-wc-OLb">
-                                <rect key="frame" x="93" y="331" width="64" height="64"/>
+                                <rect key="frame" x="119" y="331" width="64" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.88235294119999996" blue="0.32549019610000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.48033280820000002" green="0.85995583210000004" blue="0.88810675760000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="1"/>
                                 <connections>
@@ -169,9 +169,9 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SqX-gv-12R">
-                                <rect key="frame" x="165" y="330" width="64" height="64"/>
+                                <rect key="frame" x="191" y="330" width="64" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.88235294119999996" blue="0.32549019610000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.48033280820000002" green="0.85995583210000004" blue="0.88810675760000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="2"/>
                                 <connections>
@@ -179,9 +179,9 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MPU-uJ-IuD">
-                                <rect key="frame" x="165" y="402" width="64" height="64"/>
+                                <rect key="frame" x="191" y="402" width="64" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.88235294119999996" blue="0.32549019610000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.48033280820000002" green="0.85995583210000004" blue="0.88810675760000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="0"/>
                                 <connections>
@@ -189,9 +189,9 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pYi-Cd-stK">
-                                <rect key="frame" x="237" y="330" width="64" height="64"/>
+                                <rect key="frame" x="263" y="330" width="64" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.88235294119999996" blue="0.32549019610000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.48033280820000002" green="0.85995583210000004" blue="0.88810675760000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="3"/>
                                 <connections>
@@ -199,17 +199,17 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="TwY-5X-9Q6">
-                                <rect key="frame" x="21" y="102" width="280" height="67"/>
+                                <rect key="frame" x="47" y="98" width="280" height="67"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.19900414357222226" green="0.95437282986111116" blue="0.68672325999999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tpE-YY-XHq">
-                                <rect key="frame" x="21" y="259" width="64" height="64"/>
+                                <rect key="frame" x="47" y="259" width="64" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.88235294119999996" blue="0.32549019610000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.48033280820000002" green="0.85995583210000004" blue="0.88810675760000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="√"/>
                                 <connections>
@@ -219,7 +219,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="favorites" id="Smu-ZX-7h3"/>
+                    <tabBarItem key="tabBarItem" title="Calculator" image="calcIcon1X" selectedImage="calcIcon1X" id="Smu-ZX-7h3"/>
                     <connections>
                         <outlet property="display" destination="TwY-5X-9Q6" id="b6K-lr-AxG"/>
                     </connections>
@@ -247,11 +247,11 @@
             </objects>
             <point key="canvasLocation" x="-806" y="-239"/>
         </scene>
-        <!--Stopwatch-->
+        <!--Navigation Controller-->
         <scene sceneID="3Ss-1O-Kak">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="LKS-hY-dEA" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Stopwatch" selectedImage="stopwatchGreen" id="gWg-I4-oJH"/>
+                    <tabBarItem key="tabBarItem" selectedImage="calcIcon1X" systemItem="mostRecent" id="gWg-I4-oJH"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="KpM-js-YjU">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -268,6 +268,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="stopwatchGreen" width="28" height="30"/>
+        <image name="calcIcon1X" width="30" height="30"/>
     </resources>
 </document>

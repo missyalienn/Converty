@@ -10,8 +10,17 @@ import UIKit
 
 class CalcViewController: UIViewController {
 
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+
+    
+    
     
     @IBOutlet private weak var display: UILabel!
+    
     
     private var userInMiddleOfTyping = false
     
@@ -37,7 +46,7 @@ class CalcViewController: UIViewController {
     }
     
     
-    private var brain = CalcBrain()
+    private var brain = CalculatorBrain()
     
     
     @IBAction private func performOperation(_ sender: UIButton) {
@@ -48,20 +57,12 @@ class CalcViewController: UIViewController {
         }
         
         if let mathSymbol = sender.currentTitle {
-           brain.performOperation(symbol: mathSymbol)
+           brain.performOperand(symbol: mathSymbol)
         }
         displayValue = brain.result
     }
     
     
-    
-    
-    
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

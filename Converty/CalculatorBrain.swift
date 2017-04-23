@@ -20,7 +20,7 @@ class CalculatorBrain {
     
     private var accumulator = 0.0
     private var history: [String] = []
-    private var lastOperation :LastOperation = .Clear
+    private var lastOperation: LastOperation = .Clear
     
     private let dotdotdot: String = " ..."
     

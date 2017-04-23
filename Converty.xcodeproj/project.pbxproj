@@ -14,6 +14,8 @@
 		F61D47991E68FC79000443B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F61D47971E68FC79000443B9 /* LaunchScreen.storyboard */; };
 		F62992CA1E6A216A003D58EE /* CalcBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62992C91E6A216A003D58EE /* CalcBrain.swift */; };
 		F64EFE921EAACA9900403CCB /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64EFE911EAACA9900403CCB /* CalculatorBrain.swift */; };
+		F665D4A91EAC352D007C2B04 /* UnitConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F665D4A81EAC352D007C2B04 /* UnitConverter.swift */; };
+		F665D4AB1EAC3684007C2B04 /* UnitConverterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F665D4AA1EAC3684007C2B04 /* UnitConverterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		F61D479A1E68FC79000443B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F62992C91E6A216A003D58EE /* CalcBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CalcBrain.swift; path = ../../AffirmationCards/CalcBrain.swift; sourceTree = "<group>"; };
 		F64EFE911EAACA9900403CCB /* CalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
+		F665D4A81EAC352D007C2B04 /* UnitConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitConverter.swift; sourceTree = "<group>"; };
+		F665D4AA1EAC3684007C2B04 /* UnitConverterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitConverterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 				F62992C91E6A216A003D58EE /* CalcBrain.swift */,
 				F64EFE911EAACA9900403CCB /* CalculatorBrain.swift */,
 				F61D47901E68FC79000443B9 /* CalcViewController.swift */,
+				F665D4A81EAC352D007C2B04 /* UnitConverter.swift */,
+				F665D4AA1EAC3684007C2B04 /* UnitConverterViewController.swift */,
 				F61D47921E68FC79000443B9 /* Main.storyboard */,
 				F61D47951E68FC79000443B9 /* Assets.xcassets */,
 				F61D47971E68FC79000443B9 /* LaunchScreen.storyboard */,
@@ -146,7 +152,9 @@
 				F61D47911E68FC79000443B9 /* CalcViewController.swift in Sources */,
 				F61D478F1E68FC79000443B9 /* AppDelegate.swift in Sources */,
 				F64EFE921EAACA9900403CCB /* CalculatorBrain.swift in Sources */,
+				F665D4A91EAC352D007C2B04 /* UnitConverter.swift in Sources */,
 				F62992CA1E6A216A003D58EE /* CalcBrain.swift in Sources */,
+				F665D4AB1EAC3684007C2B04 /* UnitConverterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

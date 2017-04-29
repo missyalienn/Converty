@@ -10,12 +10,11 @@ import UIKit
 
 class TimerViewController: UIViewController {
 
-    
-    
+
 
     @IBOutlet weak var displayLabel: UILabel!
     
-    var seconds = 60  //hold starting value of seconds
+    var seconds = 120  //hold starting value of seconds
     var timer = Timer()
     var isTimerRunning = false  //only create 1 timer at a time
     var resumeTapped = false //has pause been tapped before or not?
@@ -26,8 +25,9 @@ class TimerViewController: UIViewController {
     @IBAction func startTapped(_ sender: UIButton) {
         if isTimerRunning == false {
             runTimer()
-        }
+           // timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(TimerViewController.updateTimer), userInfo: nil, repeats: true)
 
+        }
         
     }
     
@@ -45,13 +45,17 @@ class TimerViewController: UIViewController {
     
     @IBAction func resetTapped(_ sender: UIButton) {
         timer.invalidate()
-        seconds = 0
+        seconds = 120
         displayLabel.text = makeTimeString(time: TimeInterval(seconds))
         isTimerRunning = false
     }
     
     
-    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        self.view.backgroundColor = UIColor(red:1.00, green:0.41, blue:0.71, alpha:1.0)
+        
+    }
 
     func updateTimer() {
         
@@ -81,11 +85,6 @@ class TimerViewController: UIViewController {
     }
     
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        self.view.backgroundColor = UIColor(red:1.00, green:0.41, blue:0.71, alpha:1.0)
-        
-    }
     
     
     

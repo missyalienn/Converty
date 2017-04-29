@@ -24,8 +24,9 @@ class UnitConverterViewController: UIViewController, UIPickerViewDataSource, UIP
     override func viewDidLoad() {
         super.viewDidLoad()
         tempPicker.dataSource = self
-        tempPicker.delegate = self 
-        self.view.insertPinkGradient()
+        tempPicker.delegate = self
+        self.view.backgroundColor = UIColor(red:1.00, green:0.41, blue:0.71, alpha:1.0)
+        //self.view.insertPinkGradient()
         let defaultPickerRow =
             tempPicker.numberOfRows(inComponent: 0) / 2
         pickerView(tempPicker, didSelectRow: defaultPickerRow, inComponent: 0)
@@ -58,6 +59,16 @@ class UnitConverterViewController: UIViewController, UIPickerViewDataSource, UIP
         tempLabel.text = "\(converter.convertToCelsius(degreesF: degreesF))°C"
         
     }
+    
+    func pickerView(_ pickerView: UIPickerView, attributedTitleForRow row: Int, forComponent component: Int) -> NSAttributedString? {
+        _ = tempValues[row]
+        let stringToUse = String(tempValues[row])
+        return NSAttributedString(string:stringToUse, attributes: [NSForegroundColorAttributeName: UIColor.white])
+        
+    }
+    
+    
+    
 }
 
 

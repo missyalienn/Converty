@@ -15,9 +15,6 @@ class CalcViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
     
-
-    
-    
     
     @IBOutlet private weak var display: UILabel!
     

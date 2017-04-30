@@ -13,6 +13,8 @@
 		F61D47961E68FC79000443B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F61D47951E68FC79000443B9 /* Assets.xcassets */; };
 		F61D47991E68FC79000443B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F61D47971E68FC79000443B9 /* LaunchScreen.storyboard */; };
 		F64EFE921EAACA9900403CCB /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64EFE911EAACA9900403CCB /* CalculatorBrain.swift */; };
+		F660DD4A1EB62D9600D58720 /* AlarmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F660DD491EB62D9600D58720 /* AlarmModel.swift */; };
+		F660DD4D1EB62E2700D58720 /* PropertyReflectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F660DD4C1EB62E2700D58720 /* PropertyReflectable.swift */; };
 		F665D4A91EAC352D007C2B04 /* UnitConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F665D4A81EAC352D007C2B04 /* UnitConverter.swift */; };
 		F665D4AB1EAC3684007C2B04 /* UnitConverterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F665D4AA1EAC3684007C2B04 /* UnitConverterViewController.swift */; };
 		F69BF8701EB3FBE6007D5B43 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69BF86F1EB3FBE6007D5B43 /* TimerViewController.swift */; };
@@ -27,6 +29,8 @@
 		F61D47981E68FC79000443B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F61D479A1E68FC79000443B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F64EFE911EAACA9900403CCB /* CalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
+		F660DD491EB62D9600D58720 /* AlarmModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmModel.swift; sourceTree = "<group>"; };
+		F660DD4C1EB62E2700D58720 /* PropertyReflectable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyReflectable.swift; sourceTree = "<group>"; };
 		F665D4A81EAC352D007C2B04 /* UnitConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitConverter.swift; sourceTree = "<group>"; };
 		F665D4AA1EAC3684007C2B04 /* UnitConverterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitConverterViewController.swift; sourceTree = "<group>"; };
 		F69BF86F1EB3FBE6007D5B43 /* TimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimerViewController.swift; path = ../TimerViewController.swift; sourceTree = "<group>"; };
@@ -62,18 +66,52 @@
 		F61D478D1E68FC79000443B9 /* Converty */ = {
 			isa = PBXGroup;
 			children = (
-				F69BF86F1EB3FBE6007D5B43 /* TimerViewController.swift */,
+				F660DD4B1EB62E0E00D58720 /* Protocols */,
+				F660DD481EB62CDA00D58720 /* View */,
+				F660DD471EB62CB200D58720 /* Controller */,
+				F660DD461EB62C7E00D58720 /* Model */,
 				F61D478E1E68FC79000443B9 /* AppDelegate.swift */,
-				F64EFE911EAACA9900403CCB /* CalculatorBrain.swift */,
-				F61D47901E68FC79000443B9 /* CalcViewController.swift */,
-				F665D4A81EAC352D007C2B04 /* UnitConverter.swift */,
-				F665D4AA1EAC3684007C2B04 /* UnitConverterViewController.swift */,
 				F61D47921E68FC79000443B9 /* Main.storyboard */,
 				F61D47951E68FC79000443B9 /* Assets.xcassets */,
 				F61D47971E68FC79000443B9 /* LaunchScreen.storyboard */,
 				F61D479A1E68FC79000443B9 /* Info.plist */,
 			);
 			path = Converty;
+			sourceTree = "<group>";
+		};
+		F660DD461EB62C7E00D58720 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F64EFE911EAACA9900403CCB /* CalculatorBrain.swift */,
+				F660DD491EB62D9600D58720 /* AlarmModel.swift */,
+				F665D4A81EAC352D007C2B04 /* UnitConverter.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F660DD471EB62CB200D58720 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F665D4AA1EAC3684007C2B04 /* UnitConverterViewController.swift */,
+				F61D47901E68FC79000443B9 /* CalcViewController.swift */,
+				F69BF86F1EB3FBE6007D5B43 /* TimerViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		F660DD481EB62CDA00D58720 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F660DD4B1EB62E0E00D58720 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				F660DD4C1EB62E2700D58720 /* PropertyReflectable.swift */,
+			);
+			name = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +189,8 @@
 			files = (
 				F61D47911E68FC79000443B9 /* CalcViewController.swift in Sources */,
 				F61D478F1E68FC79000443B9 /* AppDelegate.swift in Sources */,
+				F660DD4D1EB62E2700D58720 /* PropertyReflectable.swift in Sources */,
+				F660DD4A1EB62D9600D58720 /* AlarmModel.swift in Sources */,
 				F64EFE921EAACA9900403CCB /* CalculatorBrain.swift in Sources */,
 				F665D4A91EAC352D007C2B04 /* UnitConverter.swift in Sources */,
 				F69BF8701EB3FBE6007D5B43 /* TimerViewController.swift in Sources */,

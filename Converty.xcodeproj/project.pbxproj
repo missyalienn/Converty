@@ -60,7 +60,6 @@
 		F61D47821E68FC79000443B9 = {
 			isa = PBXGroup;
 			children = (
-				F660DD561EB64A2C00D58720 /* App */,
 				F61D478D1E68FC79000443B9 /* Converty */,
 				F61D478C1E68FC79000443B9 /* Products */,
 			);
@@ -77,6 +76,7 @@
 		F61D478D1E68FC79000443B9 /* Converty */ = {
 			isa = PBXGroup;
 			children = (
+				F660DD561EB64A2C00D58720 /* App */,
 				F660DD4B1EB62E0E00D58720 /* Protocols */,
 				F660DD481EB62CDA00D58720 /* View */,
 				F660DD471EB62CB200D58720 /* Controller */,
@@ -135,6 +135,7 @@
 				F660DD571EB64A4000D58720 /* Identifier.swift */,
 			);
 			name = App;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

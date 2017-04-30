@@ -18,6 +18,7 @@
 		F660DD4F1EB6343200D58720 /* Persistable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F660DD4E1EB6343200D58720 /* Persistable.swift */; };
 		F660DD511EB634D300D58720 /* AlarmAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F660DD501EB634D300D58720 /* AlarmAppDelegate.swift */; };
 		F660DD531EB6354500D58720 /* AlarmSchedulerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F660DD521EB6354400D58720 /* AlarmSchedulerDelegate.swift */; };
+		F660DD551EB63C0400D58720 /* SegueInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F660DD541EB63C0400D58720 /* SegueInfo.swift */; };
 		F665D4A91EAC352D007C2B04 /* UnitConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F665D4A81EAC352D007C2B04 /* UnitConverter.swift */; };
 		F665D4AB1EAC3684007C2B04 /* UnitConverterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F665D4AA1EAC3684007C2B04 /* UnitConverterViewController.swift */; };
 		F69BF8701EB3FBE6007D5B43 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69BF86F1EB3FBE6007D5B43 /* TimerViewController.swift */; };
@@ -37,6 +38,7 @@
 		F660DD4E1EB6343200D58720 /* Persistable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistable.swift; sourceTree = "<group>"; };
 		F660DD501EB634D300D58720 /* AlarmAppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmAppDelegate.swift; sourceTree = "<group>"; };
 		F660DD521EB6354400D58720 /* AlarmSchedulerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmSchedulerDelegate.swift; sourceTree = "<group>"; };
+		F660DD541EB63C0400D58720 /* SegueInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegueInfo.swift; sourceTree = "<group>"; };
 		F665D4A81EAC352D007C2B04 /* UnitConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitConverter.swift; sourceTree = "<group>"; };
 		F665D4AA1EAC3684007C2B04 /* UnitConverterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitConverterViewController.swift; sourceTree = "<group>"; };
 		F69BF86F1EB3FBE6007D5B43 /* TimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimerViewController.swift; path = ../TimerViewController.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 			children = (
 				F64EFE911EAACA9900403CCB /* CalculatorBrain.swift */,
 				F660DD491EB62D9600D58720 /* AlarmModel.swift */,
+				F660DD541EB63C0400D58720 /* SegueInfo.swift */,
 				F665D4A81EAC352D007C2B04 /* UnitConverter.swift */,
 			);
 			name = Model;
@@ -203,6 +206,7 @@
 				F660DD4A1EB62D9600D58720 /* AlarmModel.swift in Sources */,
 				F64EFE921EAACA9900403CCB /* CalculatorBrain.swift in Sources */,
 				F660DD511EB634D300D58720 /* AlarmAppDelegate.swift in Sources */,
+				F660DD551EB63C0400D58720 /* SegueInfo.swift in Sources */,
 				F665D4A91EAC352D007C2B04 /* UnitConverter.swift in Sources */,
 				F660DD531EB6354500D58720 /* AlarmSchedulerDelegate.swift in Sources */,
 				F69BF8701EB3FBE6007D5B43 /* TimerViewController.swift in Sources */,

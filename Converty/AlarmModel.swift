@@ -54,23 +54,65 @@ struct Alarm: PropertyReflectable {
 }
 
 extension Alarm {
-    
-    var formattedTime: String {
-    let dateFormatter = DateFormatter()
-    dateFormatter.dateFormat = "h:mm a"
-    return dateFormatter.string(from: self.date)
+        var formattedTime: String {
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "h:mm a"
+        return dateFormatter.string(from: self.date)
+    }
 }
     
 // TODO: Implement viewModel Alarms 
     
-    
-    
-    
-    
-    
-    
-    
+    class Alarms: Persistable {
+        
+        let userDefaults: UserDefaults =  UserDefaults.standard
+        let persistKey: String = "myAlarmKey"
+        var alarms: [Alarm] = [] {
+            //observer sync with user defaults
+            didSet{
+                persist()
+            }
+        }
+        
+        private func getAlarmsDictRepresentation() -> [PropertyReflectable.RepresentationType] {
+            return alarms.map{$0.propertyDictRepresentation}
+        }
+       
+        init() {
+            alarms = getAlarms()
+        }
+        
+        func persist() {
+            userDefaults.set(getAlarmsDictRepresentation(), forKey: persistKey)
+            userDefaults.synchronize()
+        }
+
+        func unpersist() {
+            for key in userDefaults.dictionaryRepresentation().keys {
+                UserDefaults.standard.removeObject(forKey: key.description)
+            }
+        }
+        
+        var count: Int {
+            return alarms.count
+        }
+        
+       //get all alarms from UserDefaults
+    private func getAlarms() -> [Alarm] {
+            let array = UserDefaults.standard.array(forKey: persistKey)
+            guard let alarmArray = array else {
+                return [Alarm]()
+            }
+            if let dicts = alarmArray as? [PropertyReflectable.RepresentationType] {
+                if dicts.first?.count == Alarm.propertyCount{
+                    return dicts.map{Alarm($0)}
+                }
+            }
+            unpersist()
+            return [Alarm]()
+    }
 }
+
 
     
     
